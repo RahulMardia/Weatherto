@@ -1,0 +1,28 @@
+.mainContainer{
+    display: grid;
+    gap: 15px;
+    margin: 10px 0 20px 0;
+}
+.bigContainer{
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    gap: 20px;
+    
+}
+.smallContainer{
+    display: grid;
+    min-width: 124px;
+    padding: 16px;
+    width: 124px;
+    justify-content: center;
+    height: 147px;
+    background-color: #171617;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.bigContainer::-webkit-scrollbar {
+    display: none;
+  }
