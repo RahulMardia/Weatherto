@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 25px 15px;
+    margin-bottom: 20px;
+}
+
+.navbar-head{
+    font-size:2rem;
+    text-decoration: none;
+}
+
+.search-bar input{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #191919;
+    
+    padding: 15px 20px;
+}
+
+@media (max-width : 420px){
+    .search-bar input{
+        margin-right: 10px;
+        padding:12px 0px 12px 4px;
+       
+    }
+
+    .navbar-head{
+        font-size: 1.6rem;
+    }
+
+    .navbar{
+        padding: 25px 5px;
+    }
+    }

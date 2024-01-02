@@ -1,0 +1,218 @@
+.highlightContainer{
+    background-color: #1d1c1f;
+padding: 36px;
+width: 100%;
+border-radius: 20px;
+}
+
+.highlightText{
+    font-size: 1.4rem;
+font-weight: 600;
+margin-bottom: 10px;
+}
+
+
+
+.leftHighlightContainer{
+    display: flex;
+        flex-direction: column;
+    background-color: #171617;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+.rightHighlightContainer{
+    display: flex;
+        flex-direction: column;
+    background-color: #171617;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+.sunContainerText{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #7b7980;
+}
+.leftHighlightContainer .qualityFlex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.leftHighlightContainer .qualityFlex .good{
+    background-color: #0b9b3f;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+.leftHighlightContainer .qualityFlex .bad{
+    background-color: #b13a18;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+.aqText{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #7b7980;
+}
+
+.leftHighlightContainer .container{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.leftHighlightContainer .container .pmContainer .pmHeading{
+    font-size: 1.2rem;
+    color: #7b7980;
+}
+.leftHighlightContainer .container .pmContainer .pmText{
+    display: inherit;
+    font-size: 2rem;
+    align-self: center;
+}
+.leftHighlightContainer .container .fa-solid{
+    align-self: center;
+}
+
+.icon{
+    margin-right: 20px;
+    align-self: center;
+}
+.right-Container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-Container .sunriseContainer{
+    display: flex;
+    align-self: center;
+    
+}
+
+.right-Container .sunsetContainer{
+    display: flex;
+    align-self: center;
+    
+}
+ .sunText{
+font-size: 1.3rem;
+color: #7b7980;
+}
+ .sunTimeText{
+font-size: 1.7rem;
+font-weight: 500;
+}
+
+
+.firstContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .humidityContainer {
+    width: calc(25% - 20px); /* Initial width for 4 containers with margin */
+    margin-bottom: 20px;
+    background-color: #171617;
+    padding: 24px;
+    border-radius: 20px;
+  }
+  .humidityContainer span{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  .humiContainer{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 20px;
+  }
+
+  .humiContainer p{
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+
+@media screen and (max-width: 1400px) {
+    .humidityContainer {
+      width: calc(50% - 20px); /* 2 containers side by side with margin */
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .humidityContainer {
+      width: 100% ; /* Single container with margin */
+    }
+  }
+
+@media (min-width:1400px) {
+    .topFlex{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+       
+    }
+
+    .icon{
+        margin-right: 10px;
+    }
+
+    .leftHighlightContainer{
+       
+        background-color: #171617;
+        width: 49%;
+        height: 200px;
+        margin: 20px 0;
+        
+    }
+    .rightHighlightContainer{
+        
+        background-color: #171617;
+        width: 49%;
+        height: 200px;
+        margin: 20px 0;
+    }   
+    
+    .right-Container{
+        gap: 40px !important;
+    }
+
+    .firstContainer{
+        gap: 20px;
+    }
+    
+}
+
+@media (max-width:450px) {
+    .leftHighlightContainer .container .pmContainer .pmHeading{
+        font-size: 1rem;
+    }
+    .leftHighlightContainer .container .pmContainer .pmText {
+        font-size: 1.3rem;
+    }
+
+    .sunTimeText{
+        font-size: 1.3rem;
+    }
+    .icon{
+        margin-right: 5px;
+    }
+}
+
+@media (max-width:540px) {
+    
+    .right-Container{
+        display: grid;
+        gap:10px
+    }
+}
